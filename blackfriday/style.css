@@ -312,7 +312,7 @@ h2 { font-size: clamp(2rem, 3.2vw + 1rem, 3.5rem); }
 .pele .p-afinador { stroke: currentColor; stroke-width: 5; stroke-linecap: round; }
 .pele .p-corda { fill: none; stroke: var(--destaque); stroke-width: 2; }
 .pele .p-afinador-q { fill: currentColor; }
-.pele .p-mao path { fill: var(--destaque); stroke: var(--destaque); stroke-width: 1.1px; stroke-linejoin: round; }
+.pele .p-mao path { fill: var(--destaque); stroke: var(--destaque); stroke-width: 240; stroke-linejoin: round; } /* traço engrossado (unidades do desenho) para o laranja aparecer cheio */
 
 /* ---------- 2. cursos ---------- */
 .cab { margin-bottom: 40px; }
