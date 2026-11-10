@@ -452,6 +452,7 @@ html:not(.fx-fundo-ativo) .professor { background: var(--claro-fundo); color: va
 .faq .resp { padding: 0 0 24px; color: var(--suave); display: grid; gap: 12px; max-width: 62ch; }
 .faq .resp ul { padding-left: 20px; display: grid; gap: 6px; }
 .faq .resp strong { color: var(--texto); }
+.faq .resp .faq-fonte { font-size: 0.8125rem; }
 .faq-whats { margin-top: 24px; color: var(--suave); }
 @media (prefers-reduced-motion: reduce) { .faq summary::after { transition: none; } }
 
