@@ -242,6 +242,12 @@ html.oferta-futura .faixa .so-futura, html.oferta-encerrada .faixa .so-encerrada
   display: flex; align-items: center; justify-content: space-between; gap: 16px;
 }
 .marca { font-weight: 700; font-size: 1.125rem; text-decoration: none; min-height: 48px; display: inline-flex; align-items: center; }
+.logo { display: block; height: auto; }
+.logo .m-circ, .logo .m-letra { fill: var(--texto); }
+.logo .m-mao { fill: var(--destaque); }
+.marca .logo-h { width: 188px; }
+@media (min-width: 860px) { .marca .logo-h { width: 236px; } }
+.rodape-logo .logo-v { width: 132px; }
 .cabecalho nav { display: flex; gap: 4px; }
 .cabecalho nav a { min-height: 48px; min-width: 48px; padding: 0 12px; display: inline-flex; align-items: center; justify-content: center; text-decoration: none; color: var(--suave); }
 .cabecalho nav a:hover { color: inherit; text-decoration: underline; }
