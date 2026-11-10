@@ -334,8 +334,8 @@ h2 { font-size: clamp(2rem, 3.2vw + 1rem, 3.5rem); }
 .curso-dados div { display: grid; gap: 2px; }
 .curso-dados dt { font-size: 0.875rem; text-transform: uppercase; letter-spacing: 0.08em; color: var(--suave); }
 .curso-dados dd { margin: 0; }
-.ritmos { list-style: none; display: flex; flex-wrap: wrap; gap: 8px; }
-.ritmos li { border: 1px solid var(--linha); border-radius: 999px; padding: 4px 14px; }
+.ritmos { list-style: none; display: flex; flex-wrap: wrap; font-size: 0.875rem; line-height: 1.45; color: var(--suave); }
+.ritmos li:not(:last-child)::after { content: "·"; margin: 0 0.45em; color: var(--destaque); }
 .aprende { list-style: none; display: grid; gap: 8px; }
 .aprende li { padding-left: 24px; position: relative; }
 .aprende li::before { content: ""; position: absolute; left: 4px; top: 0.6em; width: 8px; height: 8px; border-radius: 50%; background: var(--destaque); }
